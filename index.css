@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@700&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@700&display=swap');
+
+
+*{
+    background-color:#ECF6FE;
+    color: #381664;
+}
+
+
+body {
+    font-family: 'syne', sans-serif;
+}
+
+
+header {
+    align-items: center;
+    margin: 2em 2em;
+    align-items: top;
+    display: flex;
+    gap: 0px;
+    justify-content: space-between;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    font-weight:900;
+    line-height: 20px;
+    letter-spacing: -0.04em;
+    text-align: left;
+}
+
+
+.navbar a{
+    width: 107px;
+    padding: 0 0.5em;
+    text-decoration: none;
+    font-family: 'Syne', sans-serif;
+    line-height: 50px;
+    font-size: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    font-weight: none;
+}
+
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+
+.line {
+    margin: 0;
+    border: 1px solid #381664;
+}
+
+
+#section {
+    padding: 96px 0px 96px 0px;
+    gap: 48px;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+
+.hero h1 {
+    font-family: 'syne', sans-serif;
+    font-size: 120px;
+    font-weight: 550;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.hero h1:hover {
+    scale: 0.9;
+}
+
+
+.main-image img {
+    width: 92.2%;
+    height: 672px;
+    border-radius: 22px;
+    margin: 0 3.5em 8em 3.5em;
+    transition: 0.5s;
+}
+
+.main-image img:hover {
+    scale: 1.02;
+    box-shadow: 0 10px 30px black;
+}
+
+
+.gallery, .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+
+.gallery-item, .project-item {
+    width:28%;
+    justify-content: center;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.gallery-item:hover{
+    box-shadow: 0 10px 20px black;
+    border-radius: 30px;
+    scale: 1.02;
+}
+
+.project-item:hover{
+    box-shadow: 0 10px 20px black;
+    border-radius: 30px;
+    scale: 1.02;
+}
+
+
+.gallery-item img, .project-item img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.gallery-item p, .project-item p {
+    margin: 10px 0 0;
+}
+
+.gallery-item p:nth-child(2) {
+    font-family:'syne', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+
+.gallery-item p:nth-child(3) {
+    font-family: 'Familjen Grotesk';
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.project-item p:nth-child(2) {
+    font-family:'syne', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.project-item p:nth-child(3) {
+    font-family:'Familjen Grotesk';
+    font-size: 17px;
+    line-height: 24px;
+}
+
+
+.about {
+    width: 50%;
+    font-family: 'Syne', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    margin: 1.5em;
+}
+
+
+.project-showcase {
+    margin-top: 5em;
+    margin-left: 1.5em;
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.year {
+    font-family: 'Familjen Grotesk';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+.line {
+    border: 1px solid #381664;
+}
+
+
+.contact {
+    padding: 10px;
+    margin:10em;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.contact .contact-us {
+    font-family: 'Syne', sans-serif;
+    font-size: 40px;
+    font-weight: 550;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.contact p {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+
+.contact form {
+    display: inline-block;
+    text-align: center;
+}
+
+
+.contact form input[type="text"] {
+    margin: 5px 8px;
+    width: 70px;
+    height: 80px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #3D2C8D;
+    border-radius: 26px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.contact form input[type="text"]:hover {
+    scale:1.08;
+    border-color: aqua;
+}
+
+.contact form button {
+    font-family: "Space Mono", monospace;
+    font-weight: bolder;
+    display: block;
+    width: 500px;
+    padding: 10px;
+    background-color: #3D2C8D;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    margin-top: 50px;
+    transition: 0.2s;
+}
+.contact form button:hover{
+    background-color: rgb(222, 4, 113);
+    scale: 1.02;
+    box-shadow: 0 0 10px black;
+}
+
+.contact form a {
+    font-family: "Space Mono", monospace;
+    display: block;
+    margin-top: 10px;
+    color: #3D2C8D;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+
+.contact form a:hover{
+    scale: 1.2;
+    color: rgb(222, 4, 113);
+}
+
+
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.footer input[type="email"] {
+    font-family: "Familjen Grotesk", sans-serif;
+    margin-top: 20px;
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #3D2C8D;
+    border-radius: 28px;
+    font-size: 16px;
+    background-color: white;
+    margin-bottom: 50px;
+    transition: 0.4s;
+}
+
+.footer input[type="email"]:hover {
+    scale: 1.05;
+}
+
+.footer button {
+    font-family: "Space Mono", monospace;
+    padding: 10px 20px;
+    background-color: #3D2C8D;
+    color: white;
+    border: none;
+    border-radius: 28px;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: 0.4s;
+}
+
+.footer button:hover {
+    background-color: rgb(222, 4, 113);
+    scale: 1.04;
+    box-shadow: 0 0 10px black;
+}
+
+
+.footer {
+    margin: 5px 100;
+}
+
+.footer .social-icons a {
+    margin: 0 15px;
+    color: #3D2C8D;
+    font-size: 45px;
+    text-decoration: none;
+}
+
+
+@media (max-width:px) {
+    .gallery-item, .project-item {
+        width:auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .gallery-item, .project-item {
+        width: 100%;
+    }
+}
