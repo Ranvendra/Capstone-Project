@@ -119,7 +119,7 @@ header h1 {
     width:28%;
     justify-content: center;
     transition: 0.5s;
-    padding: 15px;
+    padding: 12px;
 }
 
 .gallery-item:hover{
