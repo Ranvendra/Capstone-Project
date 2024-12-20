@@ -111,7 +111,7 @@ header h1 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
-    padding: 20px;
+    padding: 18px;
 }
 
 
@@ -316,6 +316,7 @@ header h1 {
 
 .footer input[type="email"]:hover {
     scale: 1.05;
+    border-color: #9521f4;
 }
 
 .footer button {
@@ -349,15 +350,8 @@ header h1 {
 }
 
 
-@media (max-width:px) {
+@media (max-width:1080px) {
     .gallery-item, .project-item {
-        width:auto;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .gallery-item, .project-item {
-        width: 100%;
+        width:27%;
     }
 }
